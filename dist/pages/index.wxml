@@ -26,7 +26,7 @@
         </view>
     </view>
     <view class="page__ft">
-        <image src="/images/pd_logo_16.png" style="width:16px;height:16px;vertical-align:middle;" ></image>
+        <image src="/images/pd_logo_97.png" style="width:16px;height:16px;vertical-align:middle;" ></image>
         <text style="color:#b2b2b2;font-size:16px;vertical-align:middle;margin-left:5px;">PDESIGN</text>
     </view>
 </view>
