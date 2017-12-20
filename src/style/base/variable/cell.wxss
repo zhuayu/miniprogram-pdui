@@ -1,0 +1,24 @@
+@CellBg:#FFFFFF;
+@CellBorderColor:#D9D9D9;
+@CellGapV:10px;
+@CellGapH:15px;
+@CellInnerGapH:.35em;
+@CellFontSize:17px;
+@CellHeight: 44px;
+@CellHeightEm: unit(@CellHeight / @CellFontSize, em);
+@CellTipsFontSize:14px;
+@CellLabelWidth:105px;
+@CellActiveBg: #ECECEC;
+
+@CellLineHeight: unit((@CellHeight - 2 * @CellGapV) / @CellFontSize); // 高度为44px，减去上下padding的行高
+@CellsMarginTop: unit(20 / @CellFontSize, em);
+
+//  switch
+@SwitchHeight: 32px;
+
+//  uploader
+@UploaderBorderColor:#D9D9D9;
+@UploaderActiveBorderColor:#999999;
+@UploaderFileSpacing: 9px;
+@UploaderSize: 79px;
+@UploaderBorderWidth: 1px;

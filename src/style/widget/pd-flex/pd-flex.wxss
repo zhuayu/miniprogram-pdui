@@ -1,0 +1,8 @@
+@import "../../base/fn.wxss";
+
+.pd-flex {
+    display: flex;
+}
+.pd-flex__item{
+    flex: 1;
+}

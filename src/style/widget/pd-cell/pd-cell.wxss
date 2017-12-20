@@ -1,0 +1,64 @@
+@import "../../base/fn.wxss";
+
+.pd-cells {
+    position: relative;
+    margin-top: @CellsMarginTop;
+    background-color: @CellBg;
+    line-height: @CellLineHeight;
+    font-size: @CellFontSize; //cell中间有效高度23px，跟客户端默认图标尺寸一致
+    &:before {
+        .setTopLine(@CellBorderColor);
+    }
+    &:after {
+        .setBottomLine(@CellBorderColor);
+    }
+}
+
+.pd-cells__title {
+    margin-top: .77em; // 15px - 行高
+    margin-bottom: .3em; // 8px - 行高
+    padding-left: @CellGapH;
+    padding-right: @CellGapH;
+    color: @TextColorGray;
+    font-size: @CellTipsFontSize;
+}
+.pd-cells_after-title{
+    margin-top: 0;
+}
+
+.pd-cells__tips {
+    margin-top: .3em; // 8px - 行高
+    color: @TextColorGray;
+    padding-left: @CellGapH;
+    padding-right: @CellGapH;
+    font-size: @CellTipsFontSize;
+}
+
+.pd-cell {
+    padding: @CellGapV @CellGapH;
+    position: relative; //这个是为了兼容cells容器onepx方案被before挡住而做的
+    display: flex;
+    align-items: center;
+    &:before {
+        .setTopLine(@CellBorderColor);
+        left: @CellGapH;
+    }
+    &:first-child {
+        &:before {
+            display: none;
+        }
+    }
+}
+.pd-cell_active {
+    background-color: @CellActiveBg;
+}
+.pd-cell_primary{
+    align-items: flex-start;
+}
+.pd-cell__bd{
+    flex: 1;
+}
+.pd-cell__ft {
+    text-align: right;
+    color: @TextColorGray;
+}
