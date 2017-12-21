@@ -1,0 +1,35 @@
+.page__bd{
+    padding: 0 60rpx 40px;
+}
+
+.color-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.color-item{
+    width: 180rpx;
+    height: 340rpx;
+    flex: none;
+    text-align: center;
+}
+.color-item_colorbg{
+    height: 180rpx;
+    border-radius: 2px;
+    margin-bottom: 10rpx;
+}
+.color-item_name{
+    font-size: 24rpx;
+    line-height: 40rpx;
+    color: #293c46;
+}
+.color-item_title{
+    font-size: 24rpx;
+    line-height: 40rpx;
+    color: #878a8c;
+}
+.color-item_desc{
+    font-size: 20rpx;
+    line-height: 30rpx;
+    color: #878a8c;
+}

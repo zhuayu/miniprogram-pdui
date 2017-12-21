@@ -7,5 +7,5 @@
 // variable
 @import "variable/global.wxss";
 @import "variable/color.wxss";
-
+@import "variable/button.wxss";
 @import "variable/cell.wxss";

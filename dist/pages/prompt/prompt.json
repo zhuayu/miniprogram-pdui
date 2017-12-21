@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "pd-prompt": "/components/prompt/prompt"
+    }
+}

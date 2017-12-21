@@ -2,11 +2,17 @@
   "pages": [
     "pages/index",
     "pages/color/color",
-    "pages/font/font"
+    "pages/font/font",
+
+    "pages/actionsheet/actionsheet",
+    "pages/dialog/dialog",
+    "pages/picker/picker",
+    "pages/toast/toast",
+    "pages/prompt/prompt"
   ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "PDUI for 小程序",
+    "navigationBarTitleText": "DegreeUI for 小程序",
     "navigationBarBackgroundColor": "#f8f8f8",
     "backgroundColor": "#f8f8f8"
   },

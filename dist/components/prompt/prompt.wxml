@@ -1,0 +1,5 @@
+<view class="pd-prompt {{type}} {{title ? 'active' : ''}}">
+    <view class="pd-prompt-content">
+        <text class="pd-prompt-text">{{title}}</text>
+    </view>
+</view>

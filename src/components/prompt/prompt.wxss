@@ -1,0 +1,41 @@
+.pd-prompt{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all .5s ease;
+    text-align: center;
+    transform: translateY(-100%);
+    opacity: 0;
+    padding: 10rpx 0;
+    z-index: 999;
+    background: #10AEFF;
+}
+
+.pd-prompt.success{
+    background: #09BB07;
+}
+.pd-prompt.warn{
+    background: #FFBE00;
+}
+.pd-prompt.error{
+    background: #E64340;
+}
+
+.pd-prompt.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.pd-prompt-content{
+    display: inline-block;
+    line-height: 30rpx;
+    border-radius: 20rpx;
+    font-size: 28rpx;
+    color: #fff;
+}
+
+.pd-prompt-text{
+    margin-left: 10rpx;
+    vertical-align: middle;
+}

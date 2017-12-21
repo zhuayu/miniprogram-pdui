@@ -1,7 +1,7 @@
 <view class="page">
     <view class="page__hd">
-        <view class="page__title">PDUI</view>
-        <view class="page__desc">PDUI是一套基于WeUI以微信原生视觉体验为基础的样式、组件库，另开发更具便捷，令用户的使用感知更加统一。</view>
+        <view class="page__title">DegreeUI</view>
+        <view class="page__desc">DegreeUI 是一套基于WeUI以微信原生视觉体验为基础的样式、组件库，另开发更具便捷，令用户的使用感知更加统一。</view>
     </view>
     <view class="page__bd page__bd_spacing">
         <view class="kind-list">
@@ -27,6 +27,6 @@
     </view>
     <view class="page__ft">
         <image src="/images/pd_logo_97.png" style="width:16px;height:16px;vertical-align:middle;" ></image>
-        <text style="color:#b2b2b2;font-size:16px;vertical-align:middle;margin-left:5px;">PDESIGN</text>
+        <text style="color:#b2b2b2;font-size:16px;vertical-align:middle;margin-left:5px;">DegreeUI</text>
     </view>
 </view>

@@ -1,0 +1,15 @@
+<pd-prompt id="prompt"></pd-prompt>
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">Prompt</view>
+        <view class="page__desc">提示，这里使用自定义组件的picker。</view>
+    </view>
+    <view class="page__bd">
+        <view class="pd-btn-area">
+            <button class="pd-btn" type="default" data-type="default" bindtap="openPrompt">默认提示</button>
+            <button class="pd-btn" type="default" data-type="success" bindtap="openPrompt">成功提示</button>
+            <button class="pd-btn" type="default" data-type="warn" bindtap="openPrompt">警告提示</button>
+            <button class="pd-btn" type="default" data-type="error" bindtap="openPrompt">错误提示</button>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,11 @@
+@import "../../base/fn.wxss";
+
+.pd-btn{
+    margin-top: @BtnDefaultGap;
+    &:first-child{
+        margin-top: 0;
+    }
+}
+.pd-btn-area{
+    margin: @CellsMarginTop @BtnDefaultGap .3em;
+}
