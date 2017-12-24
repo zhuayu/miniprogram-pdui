@@ -1,0 +1,84 @@
+@import "../../../base/fn.wxss";
+
+.weui-form-preview{
+    position: relative;
+    background-color: #FFFFFF;
+    &:before{
+        .setTopLine(@CellBorderColor);
+    }
+    &:after{
+        .setBottomLine(@CellBorderColor);
+    }
+}
+.weui-form-preview__value{
+    font-size: 14px;
+}
+.weui-form-preview__value_in-hd{
+    font-size: 26px;
+}
+.weui-form-preview__hd{
+    position: relative;
+    padding: @CellGapV @CellGapH;
+    text-align: right;
+    line-height: 2.5em;
+    &:after{
+        .setBottomLine(@CellBorderColor);
+        left: @CellGapH;
+    }
+}
+.weui-form-preview__bd{
+    padding: @CellGapV @CellGapH;
+    font-size: .9em;
+    text-align: right;
+    color: @TextColorGray;
+    line-height: 2;
+}
+.weui-form-preview__ft{
+    position: relative;
+    line-height: 50px;
+    display: flex;
+    &:after {
+        .setTopLine(@DialogLineColor);
+    }
+}
+.weui-form-preview__item{
+    overflow: hidden;
+}
+.weui-form-preview__label{
+    float: left;
+    margin-right: 1em;
+    min-width: 4em;
+    color: @TextColorGray;
+    text-align: justify;
+    text-align-last: justify;
+}
+.weui-form-preview__value{
+    display: block;
+    overflow: hidden;
+    word-break:normal;
+    word-wrap: break-word;
+}
+.weui-form-preview__btn {
+    position: relative;
+    display: block;
+    flex: 1;
+    color: @DialogLinkColor;
+    text-align: center;
+    &:after {
+        .setLeftLine(@DialogLineColor);
+    }
+    &:first-child {
+        &:after {
+            display: none;
+        }
+    }
+}
+.weui-form-preview__btn_active{
+    background-color: @DialogLinkActiveBc;
+}
+.weui-form-preview__btn_default {
+    color: @TextColorGray;
+}
+.weui-form-preview__btn_primary {
+    color: #0BB20C;
+}

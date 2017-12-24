@@ -1,0 +1,28 @@
+@import "../../base/fn.wxss";
+
+// icon
+.pd-icon-radio{
+    margin-left: 3.2px;
+    margin-right: 3.2px;
+}
+.pd-icon-checkbox_circle,
+.pd-icon-checkbox_success{
+    margin-left: 4.6px;
+    margin-right: 4.6px;
+}
+
+.pd-check__label{
+    &:active{
+        background-color: @CellActiveBg;
+    }
+}
+.pd-check{
+    position: absolute;
+    left: -9999px;
+}
+.pd-check__hd_in-checkbox{
+    padding-right: @CellInnerGapH;
+}
+.pd-cell__ft_in-radio{
+    padding-left: @CellInnerGapH;
+}

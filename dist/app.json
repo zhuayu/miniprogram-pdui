@@ -1,8 +1,13 @@
 {
   "pages": [
+    
     "pages/index",
     "pages/color/color",
     "pages/font/font",
+
+    "pages/button/button",
+    "pages/list/list",
+    "pages/input/input",
 
     "pages/actionsheet/actionsheet",
     "pages/dialog/dialog",

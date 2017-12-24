@@ -2,7 +2,11 @@
 
 @import "widget/pd-cell/pd-cell.wxss";
 @import "widget/pd-cell/pd-access.wxss";
+@import "widget/pd-cell/pd-check.wxss";
+@import "widget/pd-cell/pd-form.wxss";
 @import "widget/pd-flex/pd-flex.wxss";
+@import "widget/pd-agree/pd-agree.wxss";
+
 @import "widget/pd-button/pd-button.wxss";
 
 

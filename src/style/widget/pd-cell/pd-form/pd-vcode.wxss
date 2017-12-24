@@ -1,0 +1,25 @@
+@import "../../../base/fn.wxss";
+
+.pd-cell_vcode {
+    padding-right: 0;
+}
+.pd-vcode-img{
+    margin-left: 5px;
+    height: unit(@CellHeight / @CellFontSize, em);
+    vertical-align: middle;
+}
+.pd-vcode-btn {
+    display: inline-block;
+    height: unit(@CellHeight / @CellFontSize, em);
+    margin-left: 5px;
+    padding: 0 0.6em 0 0.7em;
+    border-left: 1px solid @LineColorLight;
+    line-height: unit(@CellHeight / @CellFontSize, em);
+    vertical-align: middle;
+    font-size: @CellFontSize;
+    color: @DialogLinkColor;
+    white-space: nowrap;
+    &:active {
+        color: desaturate(@DialogLinkColor, 30%);
+    }
+}

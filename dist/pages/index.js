@@ -12,6 +12,7 @@ Page({
                 name: '表单',
                 open: false,
                 // pages: ['button', 'list', 'input', 'slider', 'uploader']
+                pages: ['button','list', 'input']
             },
             {
                 id: 'widget',

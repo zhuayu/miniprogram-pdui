@@ -9,3 +9,34 @@
 .pd-btn-area{
     margin: @CellsMarginTop @BtnDefaultGap .3em;
 }
+
+button[type="blue"]{
+    background: #00a7ff;
+    color: #fff;
+}
+
+.button-hover[type="blue"]{
+    background: #0095e6;
+}
+
+button[type="blue"][disabled]{
+    color: rgba(255,255,255,.3);
+}
+
+
+button[type="blue"][plain] {
+    color:#00a7ff;
+    border:1px solid #00a7ff;
+    background-color:transparent;
+}
+
+
+.button-hover[type="blue"][plain]{
+    color:#0095e6;
+    border:1px solid #0095e6;
+}
+
+button[type="blue"][plain][disabled] {
+    color:rgba(0, 0, 0, 0.2);
+    border-color:rgba(0, 0, 0, 0.2);
+}

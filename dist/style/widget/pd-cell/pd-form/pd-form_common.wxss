@@ -1,0 +1,6 @@
+/*!
+ * PDUI v0.0.0 (https://www.prodegree.cc)
+ * Copyright 2017 Tencent, Inc.
+ * Licensed under the ISC license
+ */
+.pd-cell_input{padding-top:0;padding-bottom:0}.pd-label{width:105px;word-wrap:break-word;word-break:break-all}.pd-input{height:2.58823529em;min-height:2.58823529em;line-height:2.58823529em}.pd-textarea{display:block;width:100%}.pd-textarea-counter{color:#b2b2b2;text-align:right}.pd-cell_warn,.pd-textarea-counter_warn{color:#e64340}

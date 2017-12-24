@@ -1,0 +1,33 @@
+@import "../../../base/fn.wxss";
+
+.pd-cell_select {
+    padding: 0;
+}
+.pd-select {
+    position: relative;
+    padding-left: @CellGapH;
+    padding-right: 30px;
+
+    height: @CellHeightEm;
+    min-height: @CellHeightEm;
+    line-height: @CellHeightEm;
+
+    border-right: 1rpx solid @CellBorderColor;
+
+    &:before{
+        content: " ";
+        .setArrow(right, 6px, #C8C8CD, 2px);
+
+        position: absolute;
+        top: 50%;
+        right: @CellGapH;
+        margin-top: -4px;
+    }
+    &_in-select-after{
+        padding-left: 0;
+    }
+}
+.pd-cell__hd_in-select-after,
+.pd-cell__bd_in-select-before{
+    padding-left: @CellGapH;
+}

@@ -1,0 +1,76 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">List</view>
+        <view class="page__desc">列表</view>
+    </view>
+    <view class="page__bd">
+        <view class="pd-cells__title">带说明的列表项</view>
+        <view class="pd-cells pd-cells_after-title">
+            <view class="pd-cell">
+                <view class="pd-cell__bd">标题文字</view>
+                <view class="pd-cell__ft">说明文字</view>
+            </view>
+        </view>
+
+        <view class="pd-cells__title">带图标、说明的列表项</view>
+        <view class="pd-cells pd-cells_after-title">
+            <view class="pd-cell">
+                <view class="pd-cell__hd">
+                    <image src="{{icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="pd-cell__bd">标题文字</view>
+                <view class="pd-cell__ft">说明文字</view>
+            </view>
+            <view class="pd-cell">
+                <view class="pd-cell__hd">
+                    <image src="{{icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="pd-cell__bd">标题文字</view>
+                <view class="pd-cell__ft">说明文字</view>
+            </view>
+        </view>
+
+
+        <view class="pd-cells__title">带跳转的列表项</view>
+        <view class="pd-cells pd-cells_after-title">
+            <navigator url="" class="pd-cell pd-cell_access" hover-class="pd-cell_active">
+                <view class="pd-cell__bd">cell standard</view>
+                <view class="pd-cell__ft pd-cell__ft_in-access"></view>
+            </navigator>
+            <navigator url="" class="pd-cell pd-cell_access" hover-class="pd-cell_active">
+                <view class="pd-cell__bd">cell standard</view>
+                <view class="pd-cell__ft pd-cell__ft_in-access"></view>
+            </navigator>
+        </view>
+
+        <view class="pd-cells__title">带说明、跳转的列表项</view>
+        <view class="pd-cells pd-cells_after-title">
+            <navigator url="" class="pd-cell pd-cell_access" hover-class="pd-cell_active">
+                <view class="pd-cell__bd">cell standard</view>
+                <view class="pd-cell__ft pd-cell__ft_in-access">说明文字</view>
+            </navigator>
+            <navigator url="" class="pd-cell pd-cell_access" hover-class="pd-cell_active">
+                <view class="pd-cell__bd">cell standard</view>
+                <view class="pd-cell__ft pd-cell__ft_in-access">说明文字</view>
+            </navigator>
+        </view>
+
+        <view class="pd-cells__title">带图标、说明、跳转的列表项</view>
+        <view class="pd-cells pd-cells_after-title">
+            <navigator url="" class="pd-cell pd-cell_access" hover-class="pd-cell_active">
+                <view class="pd-cell__hd">
+                    <image src="{{icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="pd-cell__bd">cell standard</view>
+                <view class="pd-cell__ft pd-cell__ft_in-access">说明文字</view>
+            </navigator>
+            <navigator url="" class="pd-cell pd-cell_access" hover-class="pd-cell_active">
+                <view class="pd-cell__hd">
+                    <image src="{{icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="pd-cell__bd">cell standard</view>
+                <view class="pd-cell__ft pd-cell__ft_in-access">说明文字</view>
+            </navigator>
+        </view>
+    </view>
+</view>

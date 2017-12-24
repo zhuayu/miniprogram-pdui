@@ -1,0 +1,6 @@
+/*!
+ * PDUI v0.0.0 (https://www.prodegree.cc)
+ * Copyright 2017 Tencent, Inc.
+ * Licensed under the ISC license
+ */
+.pd-agree{display:block;padding:.5em 15px;font-size:13px}.pd-agree__text{color:#999}.pd-agree__link{display:inline;color:#586c94}.pd-agree__checkbox{position:absolute;left:-9999px}.pd-agree__checkbox-icon{position:relative;top:2px;display:inline-block;border:1px solid #d1d1d1;background-color:#fff;border-radius:3px;width:11px;height:11px}.pd-agree__checkbox-icon-check{position:absolute;top:1px;left:1px}

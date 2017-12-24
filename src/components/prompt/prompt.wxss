@@ -28,14 +28,11 @@
 }
 
 .pd-prompt-content{
-    display: inline-block;
-    line-height: 30rpx;
-    border-radius: 20rpx;
-    font-size: 28rpx;
+    padding:5px;
+    font-size: 14px;
     color: #fff;
 }
 
 .pd-prompt-text{
-    margin-left: 10rpx;
     vertical-align: middle;
 }

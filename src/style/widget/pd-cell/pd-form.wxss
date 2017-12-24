@@ -1,0 +1,5 @@
+@import "../../base/fn.wxss";
+@import "./pd-form/pd-form_common.wxss";
+@import "./pd-form/pd-form-preview.wxss";
+@import "./pd-form/pd-select.wxss";
+@import "./pd-form/pd-vcode.wxss";

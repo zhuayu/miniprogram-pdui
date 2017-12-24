@@ -1,0 +1,29 @@
+@import "../../../base/fn.wxss";
+
+.pd-cell_input{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.pd-label{
+    width:@CellLabelWidth;
+    .text_wrap();
+}
+.pd-input{
+    height: @CellHeightEm;
+    min-height: @CellHeightEm;
+    line-height: @CellHeightEm;
+}
+.pd-textarea{
+    display: block;
+    width: 100%;
+}
+.pd-textarea-counter{
+    color: @TextColorTips;
+    text-align: right;
+}
+.pd-textarea-counter_warn{
+    color: @TextColorWarn;
+}
+.pd-cell_warn{
+    color: @TextColorWarn;
+}
