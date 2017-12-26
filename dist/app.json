@@ -8,6 +8,8 @@
     "pages/button/button",
     "pages/list/list",
     "pages/input/input",
+    "pages/slider/slider",
+
 
     "pages/actionsheet/actionsheet",
     "pages/dialog/dialog",
