@@ -9,6 +9,7 @@
     "pages/list/list",
     "pages/input/input",
     "pages/slider/slider",
+    "pages/uploader/uploader",
 
     "pages/actionsheet/actionsheet",
     "pages/dialog/dialog",

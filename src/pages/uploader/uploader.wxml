@@ -1,0 +1,51 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">Uploader</view>
+        <view class="page__desc">上传组件</view>
+    </view>
+    <view class="page__bd">
+        <view class="pd-cells">
+            <view class="pd-cell">
+                <view class="pd-cell__bd">
+                    <view class="pd-uploader">
+                        <view class="pd-uploader__hd">
+                            <view class="pd-uploader__title">图片上传</view>
+                            <view class="pd-uploader__info">{{files.length}}/2</view>
+                        </view>
+                        <view class="pd-uploader__bd">
+                            <view class="pd-uploader__files" id="uploaderFiles">
+                                <block wx:for="{{files}}" wx:key="*this">
+                                    <view class="pd-uploader__file" bindtap="previewImage" id="{{item}}">
+                                        <image class="pd-uploader__img" src="{{item}}" mode="aspectFill" />
+                                    </view>
+                                </block>
+                                <view class="pd-uploader__file">
+                                    <image class="pd-uploader__img" src="/images/pic_160.png" mode="aspectFill" />
+                                </view>
+                                <view class="pd-uploader__file">
+                                    <image class="pd-uploader__img" src="/images/pic_160.png" mode="aspectFill" />
+                                </view>
+                                <view class="pd-uploader__file">
+                                    <image class="pd-uploader__img" src="/images/pic_160.png" mode="aspectFill" />
+                                </view>
+                                <view class="pd-uploader__file pd-uploader__file_status">
+                                    <image class="pd-uploader__img" src="/images/pic_160.png" mode="aspectFill" />
+                                    <view class="pd-uploader__file-content">
+                                        <icon type="warn" size="23" color="#F43530"></icon>
+                                    </view>
+                                </view>
+                                <view class="pd-uploader__file pd-uploader__file_status">
+                                    <image class="pd-uploader__img" src="/images/pic_160.png" mode="aspectFill" />
+                                    <view class="pd-uploader__file-content">50%</view>
+                                </view>
+                            </view>
+                            <view class="pd-uploader__input-box">
+                                <view class="pd-uploader__input" bindtap="chooseImage"></view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
