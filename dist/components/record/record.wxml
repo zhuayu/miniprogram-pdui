@@ -1,0 +1,1 @@
+<button type="blue" bind:touchcancel="stopRecord" bind:touchend="stopRecord" bind:touchstart="startRecord">{{recordStatusText}}</button>

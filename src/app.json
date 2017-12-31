@@ -1,6 +1,5 @@
 {
   "pages": [
-    
     "pages/index",
     "pages/color/color",
     "pages/font/font",
@@ -15,7 +14,9 @@
     "pages/dialog/dialog",
     "pages/picker/picker",
     "pages/toast/toast",
-    "pages/prompt/prompt"
+    "pages/prompt/prompt",
+
+    "pages/record/record"
   ],
   "window": {
     "navigationBarTextStyle": "black",

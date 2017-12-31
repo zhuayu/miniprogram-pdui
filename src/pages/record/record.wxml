@@ -1,0 +1,15 @@
+<view class="page">
+    <view class="page__hd">
+        小程序录音测试
+    </view>
+    <view class="page__bd page__bd_spacing">
+        <view class="record-list">
+            <view style="margin-bottom:30px;border-bottom:2px solid #ccc;overflow:auto;" wx:for="{{recordList}}" data-src="{{record.src}}" wx:for-item="record" wx:key="uni" bindtap="playVoice">
+                <view>录音音频 {{index + 1}}</view>
+                <view>{{record.duration}}ms</view>
+                <view>{{record.startTime}}</view>
+            </view>
+        </view>
+        <button type="blue" bind:touchcancel="stopRecord" bind:touchend="stopRecord" bind:touchstart="startRecord">{{recordStatusText}}</button>
+    </view>
+</view>

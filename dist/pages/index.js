@@ -13,12 +13,12 @@ Page({
                 open: false,
                 pages: ['button', 'list', 'input', 'slider', 'uploader']
             },
-            {
-                id: 'widget',
-                name: '基础组件',
-                open: false,
-                // pages: ['article', 'badge', 'flex', 'footer', 'gallery', 'grid', 'icons', 'loadmore', 'panel', 'preview', 'progress']
-            },
+            // {
+            //     id: 'widget',
+            //     name: '基础组件',
+            //     open: false,
+            //     // pages: ['article', 'badge', 'flex', 'footer', 'gallery', 'grid', 'icons', 'loadmore', 'panel', 'preview', 'progress']
+            // },
             {
                 id: 'feedback',
                 name: '操作反馈',
@@ -26,17 +26,23 @@ Page({
                 pages: ['actionsheet', 'dialog', 'picker', 'toast', 'prompt']
             },
             {
-                id: 'nav',
-                name: '导航相关',
+                id: 'special',
+                name: '功能',
                 open: false,
-                // pages: ['navbar', 'tabbar']
+                pages: ['record']
             },
-            {
-                id: 'search',
-                name: '搜索相关',
-                open: false,
-                // pages: ['searchbar']
-            }
+            // {
+            //     id: 'nav',
+            //     name: '导航相关',
+            //     open: false,
+            //     // pages: ['navbar', 'tabbar']
+            // },
+            // {
+            //     id: 'search',
+            //     name: '搜索相关',
+            //     open: false,
+            //     // pages: ['searchbar']
+            // }
         ]
     },
     kindToggle: function (e) {
